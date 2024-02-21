@@ -588,6 +588,28 @@ strong{
   padding: 1.6rem;
   border-radius: 50%;
 }
+
+.container-grid-grid--4-cols {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1 0 20%; /* Adjust width as needed for 4 columns */
+  margin: 10px; /* Adjust margin as needed */
+  text-align: center;
+}
+
+/* .feature-title {
+  font-weight: bold;
+}
+
+.feature-text {
+  margin-top: 5px;
+ /* Adjust margin
+} */
+
+
 .feature-title{
   font-size: 2.4rem;
   color:#333;
